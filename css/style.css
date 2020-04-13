@@ -1,0 +1,77 @@
+.section-padding{
+    position: relative;
+}
+
+.section-bg {
+    position: absolute;
+    background: url(../mountain.jpg);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 57%;
+    background-size:cover;
+    opacity: 0.6;
+    background-position:top center;
+}
+
+.contact-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-form input,.contact-form textarea{
+    width:100%;
+    padding:13px;
+    border:1px solid #fff;
+    margin-bottom:17px;
+    color:#333;
+}
+h2{
+    color:#000;
+    margin-top:420px;
+    position: absolute;
+    transform:rotate(270deg);
+    margin-left:-30px;
+}
+input:focus,textarea:focus,button:focus{
+    outline:none;
+}
+.contact-form input:focus{
+    border:1px solid #333;
+}
+.contact-form input[type=submit]{
+    padding:13px 26px;
+    width:auto;
+    font-weight: 700;
+    color:#32D6BE;
+}
+
+/* co-md-5 area style start */
+
+.appointment-text h3 {
+    margin-top: 128px;
+    margin-left: 20px;
+}
+.appointment-text ul li {
+    list-style-type:none;
+    padding:10px;
+}
+.appointment-text ul li i{
+    margin-left:10px;
+    display:inline-block;
+}
+a.boxed-btn {
+    background: darkred;
+    padding: 10px;
+    margin-left: 67px;
+    color:#32D6BE;
+    text-decoration:none;
+}
+a.boxed-btn:hover{
+    background:#32D6BE;
+    color:#ffff;
+    transition: 1s ease;
+}
+i.fa.fa-shield {
+    padding: 10px;
+    color:#32D6BE;
+}
